@@ -1,5 +1,5 @@
 <?php
-$url = 'http://api.roblox.com' . $_SERVER['REQUEST_URI'];
+$url = 'http://groups.roblox.com' . $_SERVER['REQUEST_URI'];
 $page = file($url);
 
 foreach($page as $part)
